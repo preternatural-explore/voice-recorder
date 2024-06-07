@@ -1,0 +1,122 @@
+{
+  "pins" : [
+    {
+      "identity" : "corepersistence",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vmanot/CorePersistence.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "361b5dd5659fdeb47f3ecfd6fbd5331e69da6557"
+      }
+    },
+    {
+      "identity" : "dswaveformimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dmrschmidt/DSWaveformImage",
+      "state" : {
+        "revision" : "4c56578ee10128ee2b2c04c9c5aa73812de722db",
+        "version" : "14.2.2"
+      }
+    },
+    {
+      "identity" : "media",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vmanot/Media",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d511e0bff38e8f4bce60f59f4518147ca4c949a3"
+      }
+    },
+    {
+      "identity" : "merge",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vmanot/Merge.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8b3d1ec5e77dbd4ea074bd99b14d5ba74fcdb16d"
+      }
+    },
+    {
+      "identity" : "networkkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vmanot/NetworkKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5cb51a7f82824adf104bcab5c935972a6a90a331"
+      }
+    },
+    {
+      "identity" : "swallow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vmanot/Swallow.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f021b15b6b362ed44ad412213889ef8aaae9e381"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections",
+      "state" : {
+        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "fa8f95c2d536d6620cc2f504ebe8a6167c9fc2dd",
+        "version" : "510.0.1"
+      }
+    },
+    {
+      "identity" : "swiftapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vmanot/SwiftAPI.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "111665a133ba086601239cea17b4baf189ea9687"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/SwiftUI-Introspect",
+      "state" : {
+        "revision" : "121c146fe591b1320238d054ae35c81ffa45f45a",
+        "version" : "0.12.0"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "edaccfee792b2d93fdca1cd0845b49a9fe2753c9"
+      }
+    },
+    {
+      "identity" : "swiftuiz",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIZ.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "98cb42a1ca684494e0104b6930122fab841b71b9"
+      }
+    },
+    {
+      "identity" : "usearch",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/unum-cloud/usearch",
+      "state" : {
+        "revision" : "5ea48c87c56a25ab57634a8f207f80ae675ed58e",
+        "version" : "2.12.0"
+      }
+    }
+  ],
+  "version" : 2
+}

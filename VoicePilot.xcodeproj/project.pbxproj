@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0FAE2E2BE5D8CE00AEF318 /* USearch in Frameworks */ = {isa = PBXBuildFile; productRef = FA0FAE2D2BE5D8CE00AEF318 /* USearch */; };
+		FA82555C2BE5E08F00C5DFEF /* AIClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82555B2BE5E08F00C5DFEF /* AIClientManager.swift */; };
+		FA82555F2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82555E2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift */; };
+		FA8255612BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8255602BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift */; };
+		FA9120532BCFC66100B92144 /* RecordButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9120522BCFC66100B92144 /* RecordButtonView.swift */; };
+		FA9120562BCFF78900B92144 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9120552BCFF78900B92144 /* Recording.swift */; };
+		FA9474042BDA550300A73E65 /* RecordingSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9474032BDA550300A73E65 /* RecordingSegment.swift */; };
+		FA9CA9C02BCD16E0002CD535 /* VoicePilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CA9BF2BCD16E0002CD535 /* VoicePilotApp.swift */; };
+		FA9CA9C22BCD16E0002CD535 /* RecordingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CA9C12BCD16E0002CD535 /* RecordingListView.swift */; };
+		FA9CA9C42BCD16E1002CD535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9CA9C32BCD16E1002CD535 /* Assets.xcassets */; };
+		FA9CA9C72BCD16E1002CD535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9CA9C62BCD16E1002CD535 /* Preview Assets.xcassets */; };
+		FA9D4F992BDCB2E600C5FEA3 /* RecordingDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9D4F982BDCB2E600C5FEA3 /* RecordingDatabase.swift */; };
+		FA9F99732BCD17A80000C28C /* Media in Frameworks */ = {isa = PBXBuildFile; productRef = FA9F99722BCD17A80000C28C /* Media */; };
+		FA9F99752BCD19780000C28C /* RecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F99742BCD19780000C28C /* RecorderViewModel.swift */; };
+		FA9F99782BCE92DE0000C28C /* DSWaveformImage in Frameworks */ = {isa = PBXBuildFile; productRef = FA9F99772BCE92DE0000C28C /* DSWaveformImage */; };
+		FA9F997A2BCE92DE0000C28C /* DSWaveformImageViews in Frameworks */ = {isa = PBXBuildFile; productRef = FA9F99792BCE92DE0000C28C /* DSWaveformImageViews */; };
+		FA9F99872BCFBE850000C28C /* RecordingWaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F99862BCFBE850000C28C /* RecordingWaveViewModel.swift */; };
+		FA9F99892BCFBF050000C28C /* RecordingWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F99882BCFBF050000C28C /* RecordingWaveView.swift */; };
+		FAA6DD0D2BDA77BB00DD08CF /* TranscriptionAnalysisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DD0C2BDA77BB00DD08CF /* TranscriptionAnalysisManager.swift */; };
+		FAA6DD0F2BDA7A2C00DD08CF /* TranscriptionAnalysisPromptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DD0E2BDA7A2C00DD08CF /* TranscriptionAnalysisPromptManager.swift */; };
+		FAA6DD112BDB5F0600DD08CF /* RecordingKeyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DD102BDB5F0600DD08CF /* RecordingKeyPoint.swift */; };
+		FAA6DD132BDB888500DD08CF /* RecordingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6DD122BDB888500DD08CF /* RecordingDetailView.swift */; };
+		FAB5354C2BD0F1C70046F0BD /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5354B2BD0F1C70046F0BD /* RecordingView.swift */; };
+		FAB5354E2BD0F8500046F0BD /* RecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5354D2BD0F8500046F0BD /* RecordingViewModel.swift */; };
+		FAD1FEA32BDBB2AF00A1741C /* TranscriptionCreationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD1FEA22BDBB2AF00A1741C /* TranscriptionCreationManager.swift */; };
+		FAEAD7602BD3FB20001303D2 /* AI in Frameworks */ = {isa = PBXBuildFile; productRef = FAEAD75F2BD3FB20001303D2 /* AI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA82555B2BE5E08F00C5DFEF /* AIClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClientManager.swift; sourceTree = "<group>"; };
+		FA82555E2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionProcessessingManager.swift; sourceTree = "<group>"; };
+		FA8255602BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionProcessessingPromptManager.swift; sourceTree = "<group>"; };
+		FA9120522BCFC66100B92144 /* RecordButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonView.swift; sourceTree = "<group>"; };
+		FA9120552BCFF78900B92144 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		FA9474032BDA550300A73E65 /* RecordingSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSegment.swift; sourceTree = "<group>"; };
+		FA9CA9BC2BCD16E0002CD535 /* VoicePilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoicePilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9CA9BF2BCD16E0002CD535 /* VoicePilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicePilotApp.swift; sourceTree = "<group>"; };
+		FA9CA9C12BCD16E0002CD535 /* RecordingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingListView.swift; sourceTree = "<group>"; };
+		FA9CA9C32BCD16E1002CD535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA9CA9C62BCD16E1002CD535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA9CA9C82BCD16E1002CD535 /* VoicePilot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VoicePilot.entitlements; sourceTree = "<group>"; };
+		FA9D4F982BDCB2E600C5FEA3 /* RecordingDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDatabase.swift; sourceTree = "<group>"; };
+		FA9D4F9B2BDD23D300C5FEA3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		FA9D4F9D2BDD23DB00C5FEA3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA9D4F9F2BDD23E200C5FEA3 /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/AVFAudio.framework; sourceTree = DEVELOPER_DIR; };
+		FA9F99742BCD19780000C28C /* RecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewModel.swift; sourceTree = "<group>"; };
+		FA9F99862BCFBE850000C28C /* RecordingWaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingWaveViewModel.swift; sourceTree = "<group>"; };
+		FA9F99882BCFBF050000C28C /* RecordingWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingWaveView.swift; sourceTree = "<group>"; };
+		FAA6DD0C2BDA77BB00DD08CF /* TranscriptionAnalysisManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionAnalysisManager.swift; sourceTree = "<group>"; };
+		FAA6DD0E2BDA7A2C00DD08CF /* TranscriptionAnalysisPromptManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionAnalysisPromptManager.swift; sourceTree = "<group>"; };
+		FAA6DD102BDB5F0600DD08CF /* RecordingKeyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingKeyPoint.swift; sourceTree = "<group>"; };
+		FAA6DD122BDB888500DD08CF /* RecordingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDetailView.swift; sourceTree = "<group>"; };
+		FAB5354A2BD025DD0046F0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAB5354B2BD0F1C70046F0BD /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		FAB5354D2BD0F8500046F0BD /* RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewModel.swift; sourceTree = "<group>"; };
+		FAD1FEA22BDBB2AF00A1741C /* TranscriptionCreationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionCreationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9CA9B92BCD16E0002CD535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEAD7602BD3FB20001303D2 /* AI in Frameworks */,
+				FA9F99782BCE92DE0000C28C /* DSWaveformImage in Frameworks */,
+				FA9F99732BCD17A80000C28C /* Media in Frameworks */,
+				FA9F997A2BCE92DE0000C28C /* DSWaveformImageViews in Frameworks */,
+				FA0FAE2E2BE5D8CE00AEF318 /* USearch in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0FAE2A2BE1CB2A00AEF318 /* RecordingListView */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CA9C12BCD16E0002CD535 /* RecordingListView.swift */,
+				FA9F99882BCFBF050000C28C /* RecordingWaveView.swift */,
+				FA9120522BCFC66100B92144 /* RecordButtonView.swift */,
+			);
+			path = RecordingListView;
+			sourceTree = "<group>";
+		};
+		FA82555D2BE5E13600C5DFEF /* TranscriptionAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6DD0C2BDA77BB00DD08CF /* TranscriptionAnalysisManager.swift */,
+				FAA6DD0E2BDA7A2C00DD08CF /* TranscriptionAnalysisPromptManager.swift */,
+			);
+			path = TranscriptionAnalysis;
+			sourceTree = "<group>";
+		};
+		FA8255622BE5E1FB00C5DFEF /* TranscriptionProcessessing */ = {
+			isa = PBXGroup;
+			children = (
+				FA82555E2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift */,
+				FA8255602BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift */,
+			);
+			path = TranscriptionProcessessing;
+			sourceTree = "<group>";
+		};
+		FA9120542BCFF75000B92144 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA9120552BCFF78900B92144 /* Recording.swift */,
+				FA9474032BDA550300A73E65 /* RecordingSegment.swift */,
+				FAA6DD102BDB5F0600DD08CF /* RecordingKeyPoint.swift */,
+				FA9D4F982BDCB2E600C5FEA3 /* RecordingDatabase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA9CA9B32BCD16E0002CD535 = {
+			isa = PBXGroup;
+			children = (
+				FA9CA9BE2BCD16E0002CD535 /* VoicePilot */,
+				FA9CA9BD2BCD16E0002CD535 /* Products */,
+				FA9D4F9A2BDD23D300C5FEA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9CA9BD2BCD16E0002CD535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CA9BC2BCD16E0002CD535 /* VoicePilot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9CA9BE2BCD16E0002CD535 /* VoicePilot */ = {
+			isa = PBXGroup;
+			children = (
+				FAB5354A2BD025DD0046F0BD /* Info.plist */,
+				FA9CA9BF2BCD16E0002CD535 /* VoicePilotApp.swift */,
+				FA9F99822BCFBE300000C28C /* Views */,
+				FA9F99852BCFBE4F0000C28C /* ViewModels */,
+				FA9120542BCFF75000B92144 /* Models */,
+				FABFA6562BD7E81E003E1DAE /* AIManagers */,
+				FA9CA9C32BCD16E1002CD535 /* Assets.xcassets */,
+				FA9CA9C82BCD16E1002CD535 /* VoicePilot.entitlements */,
+				FA9CA9C52BCD16E1002CD535 /* Preview Content */,
+			);
+			path = VoicePilot;
+			sourceTree = "<group>";
+		};
+		FA9CA9C52BCD16E1002CD535 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CA9C62BCD16E1002CD535 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA9D4F9A2BDD23D300C5FEA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D4F9F2BDD23E200C5FEA3 /* AVFAudio.framework */,
+				FA9D4F9D2BDD23DB00C5FEA3 /* AVFoundation.framework */,
+				FA9D4F9B2BDD23D300C5FEA3 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9F99822BCFBE300000C28C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0FAE2A2BE1CB2A00AEF318 /* RecordingListView */,
+				FAB5354B2BD0F1C70046F0BD /* RecordingView.swift */,
+				FAA6DD122BDB888500DD08CF /* RecordingDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA9F99852BCFBE4F0000C28C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA9F99742BCD19780000C28C /* RecorderViewModel.swift */,
+				FA9F99862BCFBE850000C28C /* RecordingWaveViewModel.swift */,
+				FAB5354D2BD0F8500046F0BD /* RecordingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FABFA6562BD7E81E003E1DAE /* AIManagers */ = {
+			isa = PBXGroup;
+			children = (
+				FA82555B2BE5E08F00C5DFEF /* AIClientManager.swift */,
+				FAD1FEA22BDBB2AF00A1741C /* TranscriptionCreationManager.swift */,
+				FA8255622BE5E1FB00C5DFEF /* TranscriptionProcessessing */,
+				FA82555D2BE5E13600C5DFEF /* TranscriptionAnalysis */,
+			);
+			path = AIManagers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9CA9BB2BCD16E0002CD535 /* VoicePilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9CA9CB2BCD16E1002CD535 /* Build configuration list for PBXNativeTarget "VoicePilot" */;
+			buildPhases = (
+				FA9CA9B82BCD16E0002CD535 /* Sources */,
+				FA9CA9B92BCD16E0002CD535 /* Frameworks */,
+				FA9CA9BA2BCD16E0002CD535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoicePilot;
+			packageProductDependencies = (
+				FA9F99722BCD17A80000C28C /* Media */,
+				FA9F99772BCE92DE0000C28C /* DSWaveformImage */,
+				FA9F99792BCE92DE0000C28C /* DSWaveformImageViews */,
+				FAEAD75F2BD3FB20001303D2 /* AI */,
+				FA0FAE2D2BE5D8CE00AEF318 /* USearch */,
+			);
+			productName = VoiceAITest;
+			productReference = FA9CA9BC2BCD16E0002CD535 /* VoicePilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9CA9B42BCD16E0002CD535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FA9CA9BB2BCD16E0002CD535 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = FA9CA9B72BCD16E0002CD535 /* Build configuration list for PBXProject "VoicePilot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9CA9B32BCD16E0002CD535;
+			packageReferences = (
+				FA9F99712BCD17A80000C28C /* XCRemoteSwiftPackageReference "Media" */,
+				FA9F99762BCE92DE0000C28C /* XCRemoteSwiftPackageReference "DSWaveformImage" */,
+				FAEAD75E2BD3FB20001303D2 /* XCRemoteSwiftPackageReference "AI" */,
+				FA0FAE2C2BE5D8CE00AEF318 /* XCRemoteSwiftPackageReference "usearch" */,
+			);
+			productRefGroup = FA9CA9BD2BCD16E0002CD535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9CA9BB2BCD16E0002CD535 /* VoicePilot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9CA9BA2BCD16E0002CD535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9CA9C72BCD16E1002CD535 /* Preview Assets.xcassets in Resources */,
+				FA9CA9C42BCD16E1002CD535 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9CA9B82BCD16E0002CD535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9CA9C22BCD16E0002CD535 /* RecordingListView.swift in Sources */,
+				FA9F99892BCFBF050000C28C /* RecordingWaveView.swift in Sources */,
+				FA82555C2BE5E08F00C5DFEF /* AIClientManager.swift in Sources */,
+				FA9F99752BCD19780000C28C /* RecorderViewModel.swift in Sources */,
+				FAB5354C2BD0F1C70046F0BD /* RecordingView.swift in Sources */,
+				FA9D4F992BDCB2E600C5FEA3 /* RecordingDatabase.swift in Sources */,
+				FAA6DD0D2BDA77BB00DD08CF /* TranscriptionAnalysisManager.swift in Sources */,
+				FA9120532BCFC66100B92144 /* RecordButtonView.swift in Sources */,
+				FA8255612BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift in Sources */,
+				FA9120562BCFF78900B92144 /* Recording.swift in Sources */,
+				FAD1FEA32BDBB2AF00A1741C /* TranscriptionCreationManager.swift in Sources */,
+				FAB5354E2BD0F8500046F0BD /* RecordingViewModel.swift in Sources */,
+				FA9474042BDA550300A73E65 /* RecordingSegment.swift in Sources */,
+				FA9CA9C02BCD16E0002CD535 /* VoicePilotApp.swift in Sources */,
+				FAA6DD112BDB5F0600DD08CF /* RecordingKeyPoint.swift in Sources */,
+				FAA6DD0F2BDA7A2C00DD08CF /* TranscriptionAnalysisPromptManager.swift in Sources */,
+				FA9F99872BCFBE850000C28C /* RecordingWaveViewModel.swift in Sources */,
+				FAA6DD132BDB888500DD08CF /* RecordingDetailView.swift in Sources */,
+				FA82555F2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA9CA9C92BCD16E1002CD535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9CA9CA2BCD16E1002CD535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA9CA9CC2BCD16E1002CD535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOL_FRAMEWORKS = "";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VoicePilot/VoicePilot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoicePilot/Preview Content\"";
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoicePilot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoicePilot;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone access to start recording";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.VoicePilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9CA9CD2BCD16E1002CD535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOL_FRAMEWORKS = "";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VoicePilot/VoicePilot.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VoicePilot/Preview Content\"";
+				DEVELOPMENT_TEAM = W6GNU64U6Q;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SELECTED_FILES = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoicePilot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoicePilot;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow microphone access to start recording";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.VoicePilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9CA9B72BCD16E0002CD535 /* Build configuration list for PBXProject "VoicePilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9CA9C92BCD16E1002CD535 /* Debug */,
+				FA9CA9CA2BCD16E1002CD535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9CA9CB2BCD16E1002CD535 /* Build configuration list for PBXNativeTarget "VoicePilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9CA9CC2BCD16E1002CD535 /* Debug */,
+				FA9CA9CD2BCD16E1002CD535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA0FAE2C2BE5D8CE00AEF318 /* XCRemoteSwiftPackageReference "usearch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unum-cloud/usearch";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FA9F99712BCD17A80000C28C /* XCRemoteSwiftPackageReference "Media" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vmanot/Media";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FA9F99762BCE92DE0000C28C /* XCRemoteSwiftPackageReference "DSWaveformImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmrschmidt/DSWaveformImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.2.2;
+			};
+		};
+		FAEAD75E2BD3FB20001303D2 /* XCRemoteSwiftPackageReference "AI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PreternaturalAI/AI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA0FAE2D2BE5D8CE00AEF318 /* USearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA0FAE2C2BE5D8CE00AEF318 /* XCRemoteSwiftPackageReference "usearch" */;
+			productName = USearch;
+		};
+		FA9F99722BCD17A80000C28C /* Media */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9F99712BCD17A80000C28C /* XCRemoteSwiftPackageReference "Media" */;
+			productName = Media;
+		};
+		FA9F99772BCE92DE0000C28C /* DSWaveformImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9F99762BCE92DE0000C28C /* XCRemoteSwiftPackageReference "DSWaveformImage" */;
+			productName = DSWaveformImage;
+		};
+		FA9F99792BCE92DE0000C28C /* DSWaveformImageViews */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9F99762BCE92DE0000C28C /* XCRemoteSwiftPackageReference "DSWaveformImage" */;
+			productName = DSWaveformImageViews;
+		};
+		FAEAD75F2BD3FB20001303D2 /* AI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEAD75E2BD3FB20001303D2 /* XCRemoteSwiftPackageReference "AI" */;
+			productName = AI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA9CA9B42BCD16E0002CD535 /* Project object */;
+}
