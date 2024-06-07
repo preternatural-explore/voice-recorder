@@ -7,8 +7,8 @@ VoicePilot demonstrates how to enhance the recording experience by not only capt
 VoicePilot exemplifies how integrating AI with Voice can streamline the management of multiple recordings from lectures or meetings, making it easier to access and retrieve specific segments. Technically, the project helps understand how to work with OpenAI’s Whisper API and the post-processing of transcription data in real-world applications using function calling. 
 
 ## Table of Contents
-[Running the App](#running-the-app)
-[Key Concepts](#key-concepts)
+- [Running the App](#running-the-app)
+- [Key Concepts](#key-concepts)
 
 ## Running the App
 
