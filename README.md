@@ -1,9 +1,3 @@
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6">
- <source media="(prefers-color-scheme: light)" srcset="https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6">
- <img alt="" src="https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6">
-</picture>
-
 # VoicePilot: An AI-Powered Voice Recorder
 
 Tailored for active professionals and students, VoicePilot demonstrates how to transform the way customers capture and organize audio. Traditional voice recorders often leave customers with endless ambiguously named files like “New Recording,” differentiated only by their recording dates. This makes retrieving specific recordings cumbersome, especially when managing multiple files from lectures, meetings, or other important sessions. 
