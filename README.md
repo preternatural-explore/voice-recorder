@@ -31,7 +31,7 @@ static let client = OpenAI.Client(
 
 Here is what it looks like when we recorded part of Alan Kay’s lecture [How to Invent the Future II - Stanford CS183F: Startup School](https://youtu.be/1e8VZlPBx_0?si=bg_mchxsLDxFb8Hz).
 
-![voicemockup](https://github.com/preternatural-explore/VoicePilot/assets/1157147/bcb316dc-a550-4f85-b221-9bd88c0a4704)<br />
+<img width="1280" alt="export71CB7BA5-9CFA-494A-8AA0-6BC3BE3B5B9E" src="https://github.com/preternatural-explore/VoicePilot/assets/1157147/bec2d0c1-7abe-4356-b5eb-4469de019ace"> <br />
 
 ## Key Concepts
 
