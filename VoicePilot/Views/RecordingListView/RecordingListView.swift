@@ -60,6 +60,7 @@ struct RecordingListView: View {
     @ViewBuilder
     private var recordButtonOverlay: some View {
         VStack {
+            Divider()
             if viewModel.isRecording {
                 RecordingWaveView(recorder: viewModel.recorder)
                     .padding(.top, .large)

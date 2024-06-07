@@ -20,7 +20,8 @@ struct RecordButtonView: View {
                     await viewModel.stopRecording()
                 } else {
                     await viewModel.startRecording()
-                }            }
+                }
+            }
         }) {
             ZStack {
                 Circle()
@@ -41,7 +42,7 @@ struct RecordButtonView: View {
                 }
             }
         }
-        .maxWidth(.infinity)
         .frame(height: 100)
+        .buttonStyle(PlainButtonStyle())
     }
 }
