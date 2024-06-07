@@ -1,7 +1,7 @@
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="[YOUR-DARKMODE-IMAGE](https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6)">
- <source media="(prefers-color-scheme: light)" srcset="[YOUR-LIGHTMODE-IMAGE](https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6)">
- <img alt="" src="[YOUR-DEFAULT-IMAGE](https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6)">
+ <source media="(prefers-color-scheme: dark)" srcset="https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6">
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6">
+ <img alt="" src="https://github.com/preternatural-explore/VoicePilot/assets/1157147/130b285f-88c5-45d4-a625-77734bac22f6">
 </picture>
 
 # VoicePilot: An AI-Powered Voice Recorder
