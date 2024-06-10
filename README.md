@@ -36,5 +36,6 @@ Here is what it looks like when we recorded part of Alan Kay’s lecture [How to
 
 ## Key Concepts
 
+The Voice Recorder app is developed to demonstrate the the following key concepts:
 - How to work with OpenAI’s Whisper API to get a transcription of the recording
 - How to post-process the transcription using function calling to get structured data about the transcription
