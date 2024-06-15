@@ -12,10 +12,6 @@ VoicePilot exemplifies how integrating Whisper and LLMs with Voice can streamlin
 <br/><br/>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/PreternaturalAI/AI/blob/main/LICENSE)
 
-## Table of Contents
-- [Installation](#installation)
-- [Key Concepts](#key-concepts)
-
 ## Usage
 #### Supported Platforms
 <!-- macOS-->
