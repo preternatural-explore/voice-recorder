@@ -12,6 +12,13 @@ VoicePilot exemplifies how integrating Whisper and LLMs with Voice can streamlin
 <br/><br/>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/PreternaturalAI/AI/blob/main/LICENSE)
 
+## Table of Contents
+- [Usage](#usage)
+- [Key Concepts](#key-concepts)
+- [Preternatural Frameworks](#preternatural-frameworks)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+
 ## Usage
 #### Supported Platforms
 <!-- macOS-->
@@ -58,12 +65,6 @@ static let client = OpenAI.Client(
 Here is what it looks like when we recorded part of Alan Kay’s lecture [How to Invent the Future II - Stanford CS183F: Startup School](https://youtu.be/1e8VZlPBx_0?si=bg_mchxsLDxFb8Hz).
 
  <img width="1280" alt="voicemoc" src="https://github.com/preternatural-explore/VoicePilot/assets/1157147/c5542492-b86b-4358-966e-0edbb268f88d"><br />
-
-## Table of Contents
-- [Key Concepts](#key-concepts)
-- [Preternatural Frameworks](#preternatural-frameworks)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ## Key Concepts
 
