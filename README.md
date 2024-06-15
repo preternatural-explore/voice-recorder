@@ -77,13 +77,13 @@ The following Preternatural Frameworks were used in this project:
 - [AI](https://github.com/PreternaturalAI/AI): The definitive, open-source Swift framework for interfacing with generative AI.
 - [Media](https://github.com/vmanot/Media): Media makes it stupid simple to work with media capture & playback in Swift.
 
-# Acknowledgements
+## Acknowledgements
 
 DSWaveformImage
 - **Link**: [https://github.com/dmrschmidt/DSWaveformImage](https://github.com/dmrschmidt/DSWaveformImage)
 - **License**: [MIT License](https://github.com/dmrschmidt/DSWaveformImage/blob/main/LICENSE)
 - **Authors**: Dennis Schmidt and DSWaveformImage contributors
 
-# License
+## License
 
 This package is licensed under the [MIT License](https://github.com/PreternaturalAI/AI/blob/main/LICENSE).
