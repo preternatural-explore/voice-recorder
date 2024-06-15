@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA0FAE2E2BE5D8CE00AEF318 /* USearch in Frameworks */ = {isa = PBXBuildFile; productRef = FA0FAE2D2BE5D8CE00AEF318 /* USearch */; };
 		FA82555C2BE5E08F00C5DFEF /* AIClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82555B2BE5E08F00C5DFEF /* AIClientManager.swift */; };
 		FA82555F2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82555E2BE5E18100C5DFEF /* TranscriptionProcessessingManager.swift */; };
 		FA8255612BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8255602BE5E1E500C5DFEF /* TranscriptionProcessessingPromptManager.swift */; };
@@ -74,7 +73,6 @@
 				FA9F99782BCE92DE0000C28C /* DSWaveformImage in Frameworks */,
 				FA9F99732BCD17A80000C28C /* Media in Frameworks */,
 				FA9F997A2BCE92DE0000C28C /* DSWaveformImageViews in Frameworks */,
-				FA0FAE2E2BE5D8CE00AEF318 /* USearch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +221,6 @@
 				FA9F99772BCE92DE0000C28C /* DSWaveformImage */,
 				FA9F99792BCE92DE0000C28C /* DSWaveformImageViews */,
 				FAEAD75F2BD3FB20001303D2 /* AI */,
-				FA0FAE2D2BE5D8CE00AEF318 /* USearch */,
 			);
 			productName = VoiceAITest;
 			productReference = FA9CA9BC2BCD16E0002CD535 /* VoicePilot.app */;
@@ -257,7 +254,6 @@
 				FA9F99712BCD17A80000C28C /* XCRemoteSwiftPackageReference "Media" */,
 				FA9F99762BCE92DE0000C28C /* XCRemoteSwiftPackageReference "DSWaveformImage" */,
 				FAEAD75E2BD3FB20001303D2 /* XCRemoteSwiftPackageReference "AI" */,
-				FA0FAE2C2BE5D8CE00AEF318 /* XCRemoteSwiftPackageReference "usearch" */,
 			);
 			productRefGroup = FA9CA9BD2BCD16E0002CD535 /* Products */;
 			projectDirPath = "";
@@ -540,14 +536,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FA0FAE2C2BE5D8CE00AEF318 /* XCRemoteSwiftPackageReference "usearch" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/unum-cloud/usearch";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
 		FA9F99712BCD17A80000C28C /* XCRemoteSwiftPackageReference "Media" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/vmanot/Media";
@@ -575,11 +563,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA0FAE2D2BE5D8CE00AEF318 /* USearch */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA0FAE2C2BE5D8CE00AEF318 /* XCRemoteSwiftPackageReference "usearch" */;
-			productName = USearch;
-		};
 		FA9F99722BCD17A80000C28C /* Media */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FA9F99712BCD17A80000C28C /* XCRemoteSwiftPackageReference "Media" */;

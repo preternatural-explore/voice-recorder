@@ -1,5 +1,15 @@
 {
+  "originHash" : "ca18caf2ca9c8d4d7c2cc73317a8c5f2cdc60d563c905ff68d562d2fdba28255",
   "pins" : [
+    {
+      "identity" : "ai",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PreternaturalAI/AI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ccf79ae975460172a58927d7644781c1aee779bb"
+      }
+    },
     {
       "identity" : "corepersistence",
       "kind" : "remoteSourceControl",
@@ -107,16 +117,7 @@
         "branch" : "main",
         "revision" : "98cb42a1ca684494e0104b6930122fab841b71b9"
       }
-    },
-    {
-      "identity" : "usearch",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/unum-cloud/usearch",
-      "state" : {
-        "revision" : "5ea48c87c56a25ab57634a8f207f80ae675ed58e",
-        "version" : "2.12.0"
-      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
