@@ -79,7 +79,7 @@ The following Preternatural Frameworks were used in this project:
 # Acknowledgements
 
 DSWaveformImage
-- **Link**: [https://github.com/ExgternalFrameworkPath](https://github.com/dmrschmidt/DSWaveformImage)
+- **Link**: [https://github.com/dmrschmidt/DSWaveformImage](https://github.com/dmrschmidt/DSWaveformImage)
 - **License**: [MIT License](https://github.com/dmrschmidt/DSWaveformImage/blob/main/LICENSE)
 - **Authors**: Dennis Schmidt and DSWaveformImage contributors
 
