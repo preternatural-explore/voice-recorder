@@ -18,37 +18,24 @@ struct TranscriptionAnalysisManager {
         if let transcription = recording.transcription {
             let messages: [AbstractLLM.ChatMessage] = [
                 .system(promptManager.systemPrompt),
-                .user {
-                    .concatenate(separator: nil) {
-                        sampleRecordingObject.recordingText
-                    }
-                },
+                .user(sampleRecordingObject.recordingText),
                 .functionCall(
                     of: promptManager.addRecordingAnalysisFunction,
                     arguments: sampleRecordingObject.expectedResult),
-                .user {
-                    .concatenate(separator: nil) {
-                        PromptLiteral(transcription)
-                    }
-                }
+                .user(transcription)
             ]
             do {
-                let completion = try await client.complete(
+                
+                let functionCall: AbstractLLM.ChatFunctionCall = try await client.complete(
                     messages,
-                    parameters: AbstractLLM.ChatCompletionParameters(
-                        tools: [promptManager.addRecordingAnalysisFunction]
-                    ),
-                    model: AIClientManager.chatModel
+                    functions: [promptManager.addRecordingAnalysisFunction],
+                    as: .functionCall
                 )
-                                
-                if let recordingAnalysis = try completion._allFunctionCalls.first?.decode(TranscriptionAnalysisPromptManager.AddRecordingResult.self).recordingAnalysis {
-                    
-                    await recordingDatabase.processRecordingAnalysis(recordingAnalysis, forRecording: recording)
-                } else {
-                    let assistantReply = completion.message.content
-                    await recordingDatabase.processRecordingAnalysiFailure(assistantReply, forRecording: recording)
-                }
-                    
+                
+                let recordingAnalysis = try functionCall.decode(TranscriptionAnalysisPromptManager.AddRecordingResult.self).recordingAnalysis
+                
+                await recordingDatabase.processRecordingAnalysis(recordingAnalysis, forRecording: recording)
+                
             } catch {
                 print("Error: \(error)")
             }

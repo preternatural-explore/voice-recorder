@@ -16,7 +16,7 @@
       "location" : "https://github.com/vmanot/CorePersistence.git",
       "state" : {
         "branch" : "main",
-        "revision" : "361b5dd5659fdeb47f3ecfd6fbd5331e69da6557"
+        "revision" : "5e0de9480c71416c6d77c31e31088843315fc7b3"
       }
     },
     {
@@ -34,7 +34,7 @@
       "location" : "https://github.com/vmanot/Media",
       "state" : {
         "branch" : "main",
-        "revision" : "d511e0bff38e8f4bce60f59f4518147ca4c949a3"
+        "revision" : "71555e341e4b7dab44af15f7409aebde27f70756"
       }
     },
     {
@@ -43,7 +43,7 @@
       "location" : "https://github.com/vmanot/Merge.git",
       "state" : {
         "branch" : "master",
-        "revision" : "8b3d1ec5e77dbd4ea074bd99b14d5ba74fcdb16d"
+        "revision" : "2544d435c83a3e8c8397cbaac8c36b07f32af542"
       }
     },
     {
@@ -52,7 +52,7 @@
       "location" : "https://github.com/vmanot/NetworkKit.git",
       "state" : {
         "branch" : "master",
-        "revision" : "5cb51a7f82824adf104bcab5c935972a6a90a331"
+        "revision" : "caa6076c5d96a921b0bfd00405c0dcf9677ac167"
       }
     },
     {
@@ -61,7 +61,7 @@
       "location" : "https://github.com/vmanot/Swallow.git",
       "state" : {
         "branch" : "master",
-        "revision" : "f021b15b6b362ed44ad412213889ef8aaae9e381"
+        "revision" : "01d87f060b3c78caa4510e20830bb76002c3bef1"
       }
     },
     {
@@ -69,8 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-collections",
       "state" : {
-        "revision" : "94cf62b3ba8d4bed62680a282d4c25f9c63c2efb",
-        "version" : "1.1.0"
+        "revision" : "ee97538f5b81ae89698fd95938896dec5217b148",
+        "version" : "1.1.1"
       }
     },
     {
@@ -78,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-syntax.git",
       "state" : {
-        "revision" : "fa8f95c2d536d6620cc2f504ebe8a6167c9fc2dd",
-        "version" : "510.0.1"
+        "revision" : "303e5c5c36d6a558407d364878df131c3546fad8",
+        "version" : "510.0.2"
       }
     },
     {
@@ -88,7 +88,7 @@
       "location" : "https://github.com/vmanot/SwiftAPI.git",
       "state" : {
         "branch" : "master",
-        "revision" : "111665a133ba086601239cea17b4baf189ea9687"
+        "revision" : "34ad69cb6fc7f82fbdc1bcfdd3c0041f1c80b1dc"
       }
     },
     {
@@ -106,7 +106,7 @@
       "location" : "https://github.com/SwiftUIX/SwiftUIX.git",
       "state" : {
         "branch" : "master",
-        "revision" : "edaccfee792b2d93fdca1cd0845b49a9fe2753c9"
+        "revision" : "df480a33928baf0800f22a2bd9d0d37580bf954f"
       }
     },
     {
@@ -115,7 +115,7 @@
       "location" : "https://github.com/SwiftUIX/SwiftUIZ.git",
       "state" : {
         "branch" : "main",
-        "revision" : "98cb42a1ca684494e0104b6930122fab841b71b9"
+        "revision" : "f6a551eddd3b09d595ceb9a6921115545abf54dd"
       }
     }
   ],
