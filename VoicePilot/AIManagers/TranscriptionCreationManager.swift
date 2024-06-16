@@ -33,9 +33,6 @@ struct TranscriptionCreationManager {
                     responseFormat: .verboseJSON
                 )
                 
-//                let transcriptionProcessor = TranscriptionProcessessingManager(transcription: transcription, recording: recording, recordingDatabase: recordingDatabase)
-//                await transcriptionProcessor.processTranscription()
-                
                 await recordingDatabase.processTranscription(transcription, forRecording: recording)
                 
             } catch {
