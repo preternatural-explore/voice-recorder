@@ -84,7 +84,7 @@ The following Preternatural Frameworks were used in this project:
 Once the user records audio in the Voice Recorder app, the audio is transcribed via OpenAI's Whisper API and that audio text transcription is then further analyzed by an LLM to provide a title, summary, and key points of the text in a structured way via function calling. Here is the breakdown of these two steps:
 
 ### Whisper Audio Trancription 
-[Whisper](https://openai.com/index/whisper/), created and open-sourced by OpenAI, is an Automatic Speech Recognition (ASR) system trained on 680,000 hours of audio content collected from the web. This makes Whisper particularly impressive at transcribing audio with background noise and varying accents compared to its predecessors. Another notable feature is its ability to transcribe audio with correct sentence punctuation. Integrating Whisper in your app with pPreternatural's AI framework](https://github.com/PreternaturalAI/AI) requires only the audio file and a few settings as needed: 
+[Whisper](https://openai.com/index/whisper/), created and open-sourced by OpenAI, is an Automatic Speech Recognition (ASR) system trained on 680,000 hours of audio content collected from the web. This makes Whisper particularly impressive at transcribing audio with background noise and varying accents compared to its predecessors. Another notable feature is its ability to transcribe audio with correct sentence punctuation. Integrating Whisper in your app with [Preternatural's AI framework](https://github.com/PreternaturalAI/AI) requires only the audio file and a few settings as needed: 
 
 ```swift
 // TranscriptionCreationManager
