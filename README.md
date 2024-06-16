@@ -12,6 +12,13 @@ VoicePilot exemplifies how integrating Whisper and LLMs with Voice can streamlin
 <br/><br/>
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/PreternaturalAI/AI/blob/main/LICENSE)
 
+## Table of Contents
+- [Usage](#usage)
+- [Key Concepts](#key-concepts)
+- [Preternatural Frameworks](#preternatural-frameworks)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+
 ## Usage
 #### Supported Platforms
 <!-- macOS-->
@@ -59,12 +66,6 @@ Here is what it looks like when we recorded part of Alan Kay’s lecture [How to
 
  <img width="1280" alt="voicemoc" src="https://github.com/preternatural-explore/VoicePilot/assets/1157147/c5542492-b86b-4358-966e-0edbb268f88d"><br />
 
-## Table of Contents
-- [Key Concepts](#key-concepts)
-- [Preternatural Frameworks](#preternatural-frameworks)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-
 ## Key Concepts
 
 The Voice Recorder app is developed to demonstrate the the following key concepts:
@@ -76,13 +77,13 @@ The following Preternatural Frameworks were used in this project:
 - [AI](https://github.com/PreternaturalAI/AI): The definitive, open-source Swift framework for interfacing with generative AI.
 - [Media](https://github.com/vmanot/Media): Media makes it stupid simple to work with media capture & playback in Swift.
 
-# Acknowledgements
+## Acknowledgements
 
 DSWaveformImage
 - **Link**: [https://github.com/dmrschmidt/DSWaveformImage](https://github.com/dmrschmidt/DSWaveformImage)
 - **License**: [MIT License](https://github.com/dmrschmidt/DSWaveformImage/blob/main/LICENSE)
 - **Authors**: Dennis Schmidt and DSWaveformImage contributors
 
-# License
+## License
 
 This package is licensed under the [MIT License](https://github.com/PreternaturalAI/AI/blob/main/LICENSE).
